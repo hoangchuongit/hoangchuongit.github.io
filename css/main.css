@@ -342,3 +342,40 @@ footer a:not(.nav-link) {
     border-bottom: 0;
   }
 }
+
+/*
+ * Projects
+*/
+
+#projects .project-link {
+  font-weight: 700;
+  color: hsl(210, 77%, 46%);
+}
+
+#projects .skill-list {
+  display: flex;
+  margin-left: 10px;
+  column-gap: 10px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+#projects .devicon {
+  font-size: 30px;
+  height: 30px;
+}
+
+#projects .skill-item {
+  display: flex;
+}
+
+#projects .skill-item .text {
+  margin-left: 3px;
+  line-height: 30px;
+}
+
+.flex {
+  display: flex !important;
+  
+}
