@@ -279,8 +279,24 @@ footer a:not(.nav-link) {
 
 .flex {
   display: flex !important;
-  
 }
+
+.min-w90 {
+  min-width: 90px;
+}
+
+.fa-stripe-s {
+  color: #6873df;
+}
+
+.fa-paypal {
+  color: #253b80;
+}
+
+.fa-reddit {
+  color: #ff4018;
+}
+
 
 /*
  * Skills
@@ -314,6 +330,12 @@ footer a:not(.nav-link) {
 #skills .devicon {
   font-size: 30px;
   height: 30px;
+}
+
+#skills .devicon.fab {
+  font-size: 25px;
+  min-width: 30px;
+  text-align: center;
 }
 
 #skills .skill-list {
@@ -360,15 +382,21 @@ footer a:not(.nav-link) {
 #projects .skill-list {
   display: flex;
   margin-left: 10px;
-  column-gap: 10px;
+  column-gap: 7px;
   row-gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 10px;
 }
 
 #projects .devicon {
-  font-size: 30px;
-  height: 30px;
+  font-size: 25px;
+  height: 25px;
+}
+
+#projects .devicon.fab {
+  font-size: 24px;
+  min-width: 25px;
+  text-align: center;
 }
 
 #projects .skill-item {
