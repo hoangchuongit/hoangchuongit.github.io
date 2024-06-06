@@ -277,6 +277,11 @@ footer a:not(.nav-link) {
   min-height: 32px;
 }
 
+.flex {
+  display: flex !important;
+  
+}
+
 /*
  * Skills
 */
@@ -375,7 +380,16 @@ footer a:not(.nav-link) {
   line-height: 30px;
 }
 
-.flex {
-  display: flex !important;
-  
+
+/*
+* Education
+*/
+
+#education .edu-details {
+  text-align: left;
+  margin-left: 30px;
+}
+
+#education .edu-details .h5, #education .edu-details .h6 {
+  margin-bottom: 0.5rem;
 }
