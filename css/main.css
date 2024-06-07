@@ -297,6 +297,27 @@ footer a:not(.nav-link) {
   color: #ff4018;
 }
 
+.download-btn {
+  margin-left: 0.5rem;
+}
+
+footer .download-btn {
+  display: none;
+}
+
+
+@media only screen and (max-width: 800px){
+  .download-btn {
+    margin: auto;
+    max-width: 191.77px;
+    margin-bottom: 1.5rem;
+  }
+
+  footer .download-btn {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
 
 /*
  * Skills
