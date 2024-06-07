@@ -429,6 +429,43 @@ footer .download-btn {
   line-height: 30px;
 }
 
+/*
+* Personal
+*/
+
+#personal .project-link {
+  font-weight: 700;
+  color: hsl(210, 77%, 46%);
+}
+
+#personal .skill-list {
+  display: flex;
+  margin-left: 10px;
+  column-gap: 7px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+#personal .devicon {
+  font-size: 25px;
+  height: 25px;
+}
+
+#personal .devicon.fab {
+  font-size: 24px;
+  min-width: 25px;
+  text-align: center;
+}
+
+#personal .skill-item {
+  display: flex;
+}
+
+#personal .skill-item .text {
+  margin-left: 3px;
+  line-height: 30px;
+}
 
 /*
 * Education
