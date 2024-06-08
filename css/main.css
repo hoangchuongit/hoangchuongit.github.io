@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -86,7 +87,7 @@ html {
   min-width: 600px;
   transform-origin: top;
   -webkit-animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-          animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
   background-image: url("../images/wave-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +99,7 @@ img.avatar {
 
 /* Masonary grid for portfolio */
 .grid:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -174,7 +175,7 @@ img.avatar {
 
 /* Portolio Caption */
 #bp_container .bp-xc {
-  background: #F6E05E !important;
+  background: #f6e05e !important;
 }
 
 #bp_caption a {
@@ -220,7 +221,7 @@ footer a:not(.nav-link) {
 }
 
 .hover-effect {
-  transition: transform .18s ease-in-out;
+  transition: transform 0.18s ease-in-out;
 }
 
 .hover-effect:hover {
@@ -273,6 +274,10 @@ footer a:not(.nav-link) {
   font-size: 12px !important;
 }
 
+.font-15 {
+  font-size: 15px !important;
+}
+
 #titleTyped {
   min-height: 32px;
 }
@@ -305,8 +310,7 @@ footer .download-btn {
   display: none;
 }
 
-
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
   .download-btn {
     margin: auto;
     max-width: 191.77px;
@@ -377,7 +381,7 @@ footer .download-btn {
   line-height: 30px;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
   #skills .skill-details .skill-detail-item {
     border-right: 0;
   }
@@ -385,7 +389,7 @@ footer .download-btn {
   #skills .skill-details .skill-detail-item {
     border-bottom: 1px solid lightgray;
   }
-  
+
   #skills .skill-details .skill-detail-item:last-child {
     border-bottom: 0;
   }
@@ -427,6 +431,24 @@ footer .download-btn {
 #projects .skill-item .text {
   margin-left: 3px;
   line-height: 30px;
+}
+
+@media only screen and (min-width: 810px) {
+  #projects .card-body.min-h615 {
+    min-height: 615px;
+  }
+
+  #projects .card-body.min-h755 {
+    min-height: 755px;
+  }
+
+  #projects .card-body.min-h845 {
+    min-height: 845px;
+  }
+
+  #projects .card-body.min-h990 {
+    min-height: 990px;
+  }
 }
 
 /*
@@ -476,6 +498,7 @@ footer .download-btn {
   margin-left: 30px;
 }
 
-#education .edu-details .h5, #education .edu-details .h6 {
+#education .edu-details .h5,
+#education .edu-details .h6 {
   margin-bottom: 0.5rem;
 }
