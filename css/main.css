@@ -460,6 +460,10 @@ footer .download-btn {
   color: hsl(210, 77%, 46%);
 }
 
+#personal .project-link.normal {
+  font-weight: normal;
+}
+
 #personal .skill-list {
   display: flex;
   margin-left: 10px;
